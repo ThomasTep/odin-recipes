@@ -1,0 +1,46 @@
+
+
+body {
+  font-family: monospace;
+  background: rgb(81, 205, 219);
+}
+
+
+h1 {
+  
+  color:rgba(255, 255, 255, 0.936); 
+  text-align:center;
+  border: solid;  
+  font-size:60px;
+  width: 30%;
+  margin:0 auto;
+  padding: 10px;
+  margin-top:30px;
+  margin-bottom: 50px;
+
+}
+
+.pizza, .burger, .lasagna {
+  font-weight:bold;
+  color: white; 
+  font-size:30px;
+  border: dotted;
+  padding: 10px; 
+  
+  
+}
+
+ul  {
+ display:flex;
+ justify-content: center;
+ padding: 0;
+
+}
+li {
+  margin: 0 10px;
+  
+}
+
+span {
+  color: red
+}
