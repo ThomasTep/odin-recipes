@@ -2,41 +2,45 @@
 
 body {
   font-family: monospace;
-  background: rgb(33, 199, 218);
+  background: rgb(236, 237, 184);
 }
-
 
 h1 {
   
-  color:rgba(255, 255, 255, 0.936); 
-  text-align:center;
-  border: solid;  
-  font-size:60px;
-  width: 30%;
+  color:rgb(30, 103, 32); 
+  text-align: center;
+  border: solid 5px;  
+  font-size: 50px;
+  width: 600px;
   margin:0 auto;
-  padding: 10px;
+  padding: 5px;
   margin-top:30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;  
 
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: block;
+  
 }
 
 .pizza, .burger, .lasagna {
   font-weight:bold;
-  color: white; 
+  color: rgb(30, 103, 32); 
   font-size:30px;
   border: dotted;
-  padding: 10px; 
-  
-  
+  padding: 5px; 
 }
 
 ul li {
-
-  margin: 50px;
-  
-  
-}
+  margin-bottom: 30px; 
+  }
 
 span {
-  color: red
+  color: rgb(61, 175, 4)
 }
