@@ -24,7 +24,6 @@ img {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
   display: block;
   
 }
@@ -35,9 +34,11 @@ img {
   font-size:30px;
   border: 2px dotted rgb(30, 103, 32);
   padding: 5px; 
+  
 }
 
 ul li {
+  margin-top: 20px;
   margin-bottom: 30px; 
   }
 
