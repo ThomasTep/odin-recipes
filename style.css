@@ -1,60 +1,37 @@
-
-
 body {
-  font-family: monospace;
-  background: rgb(236, 237, 184);
-  
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
-.nav-list {
+container {
   display: flex;
   justify-content: center;
-  gap: 30px;
-
-
+  align-items: center;
 }
 
-h1 {
-  
-  color:rgb(30, 103, 32); 
-  
-  border: solid 5px;  
-  font-size: 50px;
-  width: 600px;
-  margin:0 auto;
-  padding: 5px;
-  margin-top:30px;
-  margin-bottom: 20px; 
-  white-space: normal;
+info {
   display: flex;
   justify-content: center;
-  
 }
-
 img {
-  height: 300px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  
+  width: 100px;
+  height: 100px;
 }
 
-.pizza, .burger, .lasagna {
-  font-weight:bold;
-  color: rgb(30, 103, 32); 
-  font-size:30px;
-  border: 2px dotted rgb(30, 103, 32);
-  padding: 5px; 
+.title {
+  font-size: 36px;
+  font-weight: 900;
 }
 
-ul li {
-  margin-top: 20px;
-  margin-bottom: 30px; 
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
   display: flex;
-  }
-
-span {
-  color: rgb(61, 175, 4)
+  align-items: center;
+  justify-content: center;
+  background: #eee;
 }
